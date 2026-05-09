@@ -66,7 +66,7 @@ export default function Hero() {
               Pedir orçamento no WhatsApp
             </a>
             <a
-              href="/servicos"
+              href="#frota"
               className="inline-flex items-center text-white font-bold text-[15px] px-7 py-4 rounded-[10px] no-underline transition-all hover:bg-neon hover:text-white"
               style={{ border: "1.5px solid #2b8fd4", background: "transparent" }}
             >

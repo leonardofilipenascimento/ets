@@ -10,9 +10,9 @@ export default function Footer() {
         </small>
         <div className="flex gap-6 text-[13px]">
           {[
-            { href: "/servicos", label: "Serviços" },
-            { href: "/sobre", label: "Sobre" },
-            { href: "/contato", label: "Contato" },
+            { href: "#frota", label: "Serviços" },
+            { href: "#sobre", label: "Sobre" },
+            { href: "#contato", label: "Contato" },
           ].map((l) => (
             <a key={l.href} href={l.href} className="text-muted hover:text-neon2 transition-colors no-underline">
               {l.label}
