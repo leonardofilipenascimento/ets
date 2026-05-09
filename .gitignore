@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Imagens originais (arquivos fonte com EXIF, nomes do WhatsApp, etc.)
+# Os arquivos de produção estão em public/ já processados (sem EXIF, nomes SEO)
+*.jpeg
+*.jpg
+!public/**/*.jpg
