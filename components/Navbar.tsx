@@ -2,14 +2,15 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 const WA = "5571984287772";
 
 const links = [
-  { href: "/servicos", label: "Serviços" },
-  { href: "/sobre", label: "Sobre" },
-  { href: "/contato", label: "Contato" },
+  { href: "#frota", label: "Serviços" },
+  { href: "#sobre", label: "Sobre" },
+  { href: "#porque", label: "Diferenciais" },
+  { href: "#faq", label: "FAQ" },
+  { href: "#contato", label: "Contato" },
 ];
 
 export default function Navbar() {
@@ -20,7 +21,7 @@ export default function Navbar() {
       style={{ backdropFilter: "blur(14px)", background: "rgba(6,13,26,0.85)", borderBottom: "1px solid rgba(90,184,240,0.18)" }}
       className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-7 h-[72px]"
     >
-      <Link href="/" className="flex items-center gap-3 no-underline">
+      <a href="#" className="flex items-center gap-3 no-underline">
         <div className="w-[42px] h-[42px] rounded-[10px] overflow-hidden flex-shrink-0" style={{ background: "linear-gradient(135deg,#5ab8f0,#1a5a8a)" }}>
           <Image src="/ets-carreto-fretes-salvador-logo.jpg" alt="ETS Logo" width={42} height={42} className="object-cover w-full h-full" />
         </div>
@@ -30,14 +31,14 @@ export default function Navbar() {
             FRETES E MUDANÇAS
           </small>
         </div>
-      </Link>
+      </a>
 
       <ul className="hidden md:flex gap-8 list-none">
         {links.map((l) => (
           <li key={l.href}>
-            <Link href={l.href} className="text-muted text-[14px] font-medium hover:text-neon2 transition-colors no-underline">
+            <a href={l.href} className="text-muted text-[14px] font-medium hover:text-neon2 transition-colors no-underline">
               {l.label}
-            </Link>
+            </a>
           </li>
         ))}
       </ul>
@@ -71,9 +72,9 @@ export default function Navbar() {
           style={{ background: "rgba(6,13,26,0.97)", borderTop: "1px solid rgba(90,184,240,0.18)" }}
         >
           {links.map((l) => (
-            <Link key={l.href} href={l.href} onClick={() => setOpen(false)} className="text-white/80 text-[15px] font-medium hover:text-neon2 transition-colors no-underline">
+            <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="text-white/80 text-[15px] font-medium hover:text-neon2 transition-colors no-underline">
               {l.label}
-            </Link>
+            </a>
           ))}
           <a
             href={`https://wa.me/${WA}`}
