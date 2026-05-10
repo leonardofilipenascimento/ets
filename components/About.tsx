@@ -49,10 +49,10 @@ export default function About() {
         <div>
           <span className="block text-neon2 text-[12px] font-bold uppercase tracking-[3px] mb-[14px]">Sobre a ETS</span>
           <h2 className="text-white mb-[18px]" style={{ fontFamily: "var(--font-bebas-neue)", fontSize: "clamp(36px,5vw,60px)", letterSpacing: "1px", lineHeight: 1 }}>
-            A logística que<br />Salvador confia.
+            A logística que<br />o Brasil confia.
           </h2>
           <p className="text-muted text-[16px] mb-[18px]">
-            Há 5 anos a ETS Coletas e Entregas Rápidas conecta empresas e pessoas a um serviço de transporte sério, ágil e sem dor de cabeça. Começamos pequenos — hoje somos referência em Salvador e região metropolitana.
+            Há 5 anos a ETS Coletas e Entregas Rápidas conecta empresas e pessoas a um serviço de transporte sério, ágil e sem dor de cabeça. Começamos pequenos — hoje somos referência em Salvador e em todo o Brasil.
           </p>
           <p className="text-muted text-[16px]">
             Nossa frota é 100% própria, nossos motoristas são treinados e cada coleta é tratada como se fosse a única do dia.

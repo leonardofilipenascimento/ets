@@ -27,7 +27,7 @@ export default function Hero() {
             style={{ background: "rgba(43,143,212,0.1)", border: "1px solid rgba(90,184,240,0.18)" }}
           >
             <span className="w-[6px] h-[6px] rounded-full bg-whatsapp animate-pulse-dot" style={{ boxShadow: "0 0 8px #25d366" }} />
-            Atendimento ativo · Salvador e região
+            Atendimento ativo · Salvador e todo o Brasil
           </div>
 
           <h1
@@ -49,7 +49,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-muted text-[17px] max-w-[520px] mb-9" style={{ lineHeight: 1.6 }}>
-            Frete, entregas e mudanças em Salvador e região metropolitana. Frota própria, equipe treinada e 5 anos cuidando da logística de quem não pode parar.
+            Frete, entregas e mudanças em Salvador e em todo o Brasil. Frota própria, equipe treinada e 5 anos cuidando da logística de quem não pode parar.
           </p>
 
           <div className="flex gap-[14px] flex-wrap">

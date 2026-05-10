@@ -1,7 +1,7 @@
 const faqs = [
   {
     q: "Quais regiões vocês atendem?",
-    a: "Atendemos Salvador, toda a Região Metropolitana — Lauro de Freitas, Camaçari, Simões Filho, Candeias, Dias d'Ávila, São Francisco do Conde, entre outras — e o interior da Bahia. Entre em contato para consultar sua região.",
+    a: "Atendemos Salvador, toda a Região Metropolitana da Bahia e todo o Brasil. Entre em contato para consultar sua região.",
   },
   {
     q: "Como funciona o pedido de orçamento?",
