@@ -15,7 +15,7 @@ const vehicles = [
   },
   {
     title: "Coleta e Entrega de Materiais",
-    desc: "Transporte de materiais diversos para empresas e pessoas físicas em Salvador, Região Metropolitana e interior da Bahia.",
+    desc: "Transporte de materiais diversos para empresas e pessoas físicas em Salvador e em todo o Brasil.",
     tags: ["Materiais diversos", "Empresas", "Pessoa física"],
     img: "/entregas-de-caixa.png",
     alt: "Entrega de materiais diversos",
@@ -31,7 +31,7 @@ export default function Coverage() {
           O serviço certo<br />pra cada necessidade.
         </h2>
         <p className="text-muted text-[16px] mb-[50px] max-w-[640px]">
-          Atendemos Salvador, Região Metropolitana e interior da Bahia com agilidade e responsabilidade.
+          Atendemos Salvador e todo o Brasil com agilidade e responsabilidade.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">

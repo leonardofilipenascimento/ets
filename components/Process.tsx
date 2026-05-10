@@ -1,6 +1,6 @@
 const reasons = [
   { num: "01", title: "Frota própria", desc: "Caminhões e veículos do nosso pátio. Sem repasse pra terceiro, sem desculpa de atraso." },
-  { num: "02", title: "5 anos de mercado", desc: "Experiência consolidada em coletas, fretes e mudanças em Salvador e região." },
+  { num: "02", title: "5 anos de mercado", desc: "Experiência consolidada em coletas, fretes e mudanças em Salvador e em todo o Brasil." },
   { num: "03", title: "Equipe treinada", desc: "Motoristas e ajudantes capacitados para cuidar da sua carga como se fosse nossa." },
   { num: "04", title: "Orçamento rápido", desc: "Resposta em minutos pelo WhatsApp. Sem burocracia, sem enrolação." },
 ];
