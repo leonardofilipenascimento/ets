@@ -54,6 +54,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://etscoletas.com.br",
   },
+  verification: {
+    other: {
+      "msvalidate.01": "6DF2584AD4581482BDE91C984DADB512",
+    },
+  },
 };
 
 const jsonLd = {
