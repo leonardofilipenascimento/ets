@@ -20,6 +20,9 @@ export default function Footer() {
           ))}
         </div>
       </div>
+      <p className="max-w-[1240px] mx-auto mt-5 text-center text-muted text-[13px]">
+        Desenvolvido por <strong className="font-bold">Jireh Code</strong>
+      </p>
     </footer>
   );
 }
